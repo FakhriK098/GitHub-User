@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/img_item_photo"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        tools:src="@android:color/darker_gray"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/img_item_photo"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name_user"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Nama"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_follower"
+            android:layout_marginBottom="3dp"
+            android:textSize="14sp"
+            android:text="@string/_0"
+            android:layout_below="@id/tv_name_user"/>
+
+        <TextView
+            android:id="@+id/follower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+            android:text="@string/follower"
+            android:layout_below="@id/tv_name_user"
+            android:layout_toRightOf="@id/tv_follower"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_following"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="14sp"
+            android:text="@string/_0"
+            android:layout_below="@id/tv_name_user"
+            android:layout_toRightOf="@id/follower"/>
+
+        <TextView
+            android:id="@+id/following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+            android:text="@string/following"
+            android:layout_below="@id/tv_name_user"
+            android:gravity="center"
+            android:layout_toRightOf="@id/tv_following"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

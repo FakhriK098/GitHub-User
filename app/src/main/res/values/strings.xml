@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Github User\'s</string>
+    <string name="_0">0</string>
+    <string name="following">following</string>
+    <string name="add">Add</string>
+    <string name="company">Company:</string>
+    <string name="company_detail">Company Detail</string>
+    <string name="repository">Repositori:</string>
+    <string name="nama_repository">Nama Repository</string>
+    <string name="lang_repository">Language Repository</string>
+    <string name="follower">followers</string>
+    <string name="Follow">Follow</string>
+    <string name="location">Location</string>
+
+    <string-array name="name">
+        <item>Fakhri Khairi</item>
+        <item>David Imam</item>
+        <item>Adi Nugroho</item>
+        <item>Isdi Indiarto</item>
+        <item>Gusti Muhammad</item>
+        <item>Dhensa Fajar</item>
+        <item>Riko Hadi</item>
+        <item>Fandy Hendiarto</item>
+        <item>Berliana Fernanda</item>
+        <item>Grace Yunantasa</item>
+    </string-array>
+
+    <string-array name="username">
+        <item>Fakhri</item>
+        <item>David</item>
+        <item>Adi</item>
+        <item>Isdi</item>
+        <item>Gusti</item>
+        <item>Dhensa</item>
+        <item>Riko</item>
+        <item>Fandy</item>
+        <item>Berliana</item>
+        <item>Grace</item>
+    </string-array>
+
+    <integer-array name="follower">
+        <item>120</item>
+        <item>50</item>
+        <item>58</item>
+        <item>30</item>
+        <item>20</item>
+        <item>80</item>
+        <item>60</item>
+        <item>10</item>
+        <item>60</item>
+        <item>65</item>
+    </integer-array>
+
+    <integer-array name="following">
+        <item>120</item>
+        <item>500</item>
+        <item>580</item>
+        <item>300</item>
+        <item>200</item>
+        <item>80</item>
+        <item>60</item>
+        <item>100</item>
+        <item>600</item>
+        <item>650</item>
+    </integer-array>
+
+    <string-array name="company">
+        <item>Ngolex</item>
+        <item>Sawit Jaya</item>
+        <item>Jepara</item>
+        <item>Golek</item>
+        <item>Minder</item>
+        <item>Batik</item>
+        <item>Ramein</item>
+        <item>Ramein</item>
+        <item>Hijab</item>
+        <item>Tepi Sawah</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Lampung</item>
+        <item>Medan</item>
+        <item>Jepara</item>
+        <item>Banjarmasin</item>
+        <item>Pontianak</item>
+        <item>Pekalongan</item>
+        <item>Pekanbaru</item>
+        <item>Pekanbaru</item>
+        <item>Bengkulu</item>
+        <item>Blora</item>
+    </string-array>
+
+    <string-array name="name_repositori">
+        <item>Analisi Sentimen</item>
+        <item>System Recomend</item>
+        <item>Penyiraman IoT</item>
+        <item>Jemuran IoT</item>
+        <item>Perpustakaan</item>
+        <item>Reservasi</item>
+        <item>Rental Mobil</item>
+        <item>Enkripsi Rekammedis</item>
+        <item>Reservasi</item>
+        <item>Inventory</item>
+    </string-array>
+
+    <string-array name="lang_repositori">
+        <item>Python</item>
+        <item>Java</item>
+        <item>Arduino</item>
+        <item>Arduino</item>
+        <item>Java</item>
+        <item>Java</item>
+        <item>Java</item>
+        <item>Java</item>
+        <item>Java</item>
+        <item>Java</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/fakhri</item>
+        <item>@drawable/david</item>
+        <item>@drawable/adi</item>
+        <item>@drawable/isdi</item>
+        <item>@drawable/gusti</item>
+        <item>@drawable/dhensa</item>
+        <item>@drawable/riko</item>
+        <item>@drawable/fandy</item>
+        <item>@drawable/berlin</item>
+        <item>@drawable/grace</item>
+    </array>
+</resources>
